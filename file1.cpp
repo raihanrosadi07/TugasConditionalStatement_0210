@@ -35,3 +35,11 @@ int main() {
     inputData(berat, tinggi);
 
     bmi = hitungBMI(berat, tinggi);
+
+    cout << endl;
+    cout << "--- Hasil ---" << endl;
+    cout << "BMI Anda : " << bmi << endl;
+    cout << "Status   : " << statusBMI(bmi) << endl;
+
+    return 0;
+}
